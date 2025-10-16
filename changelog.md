@@ -1,5 +1,19 @@
 <h2 align="center">Archcraft : Changelogs</h2>
 
+### October 2025
+- Support for `btrfs` and `jfs` still not added due to previous bugs (unbootable system)
+- Updated ISO profile to `archiso 86-1`
+- Latest base with new packages
+- Update all Archcraft and AUR packages
+- Window Managers :
+  - Fixed `polybar` backlight module issue
+  - Fixed `bluetooth` module flicker issue
+  - Added `spotify` module on polybar (only in default)
+  - Added `spotify` rofi applet (only in default)
+- Small improvements and bugs fixed.
+
+#
+
 ### July 2025
 - Support for `btrfs` has been temporarily removed due to a bug with grub+btrfs, which makes installed system unbootable 
 - Support for `jfs` has been removed due to bugs, again... unbootable system
